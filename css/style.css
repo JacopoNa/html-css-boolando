@@ -6,9 +6,12 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
 .container {
     width: 70%;
     margin: 0 auto;
+    display: flex;
 }
 
 * {
@@ -25,10 +28,6 @@ header {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 30px;
-}
-
-header .container {
-    display: flex;
 }
 
 .gender {
@@ -144,7 +143,6 @@ a {
 }
 
 .foto {
-    
     background-size: cover;
 }
 
@@ -171,3 +169,42 @@ a {
 .sei {
     background-image: url('../img/6b.webp');
 }
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+    color: white;
+    background-color: #1a1a1a;
+    display: flex;
+    margin-top: 10px;
+}
+
+footer .container {
+    align-items: center;
+}
+
+.company {
+    width: 85%;
+}
+
+.social {
+    width: 15%;
+}
+
+footer span {
+    font-size: 12px;
+}
+
+.informations {
+    padding: 0 10px;
+}
+
+.network {
+    margin-top: 5px;
+}
+
+.network i {
+    padding: 0 2px;
+}
+
