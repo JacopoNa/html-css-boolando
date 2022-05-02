@@ -137,6 +137,10 @@ a {
     padding: 0 10px;
 }
 
+.heart:hover {
+    color: red;
+}
+
 .foto .principal:hover {
     display: none;
 }
