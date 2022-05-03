@@ -28,11 +28,17 @@ header {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 30px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .gender {
     width: 20%;
     font-size: 14px;
+    font-weight: bold;
     display: flex;
     align-items: center;
 }
@@ -72,6 +78,7 @@ a {
 .container .main-sections {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 105px;
 }
 
 .col {
@@ -104,16 +111,18 @@ a {
 
 .new-price {
     color: red;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .old-price {
     text-decoration: line-through;
+    font-weight: bold;
 }
 
 .discount {
     position: absolute;
     bottom: 25px;
+    font-weight: bold;
 }
 
 .price-discount {
